@@ -128,12 +128,17 @@ body {
 }
 
 .fixed-container--1180 {
-  /* Delete this part */
-  /* background-color: #badc58; */
-  /* Delete this part */
-
   max-width: 118rem;
   margin: 0 auto;
+  padding: 0 3.2rem;
 }
 /* -------------------- Reusable -------------------- */
 /* -------------------------------------------------- */
+
+.header {
+  background-color: #badc58;
+}
+
+.footer {
+  background-color: #ffbe76;
+}
