@@ -137,16 +137,47 @@ body {
 .grid {
   display: grid;
   column-gap: 2.4rem;
-  row-gap: 4.8rem;
+  row-gap: 2.4rem;
 }
 .grid-column--2 {
   grid-template-columns: repeat(2, 1fr);
 }
+.grid-column--3 {
+  grid-template-columns: repeat(3, 1fr);
+}
 
 .fixed-container--1180 {
   max-width: 118rem;
-  margin: 0 auto;
-  padding: 0 3.2rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3.2rem;
+  padding-right: 3.2rem;
+}
+.fixed-container--980 {
+  max-width: 98rem !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fixed-container--780 {
+  max-width: 78rem !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.padding--48-0 {
+  padding-top: 4.8rem !important;
+  padding-bottom: 4.8rem !important;
 }
 /* ---------- Reusable ---------- */
 /* ------------------------------ */
+/* .fixed-container--780 {
+  background-color: red;
+}
+.fixed-container--980 {
+  background-color: aquamarine;
+}
+.fixed-container--1180 {
+  background-color: antiquewhite;
+}
+.header {
+  background-color: blueviolet;
+} */
