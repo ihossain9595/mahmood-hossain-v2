@@ -108,6 +108,13 @@ Medium: 11px
   font-style: normal;
   font-weight: 700;
 }
+
+@font-face {
+  font-family: "niobium";
+  src: url("../font/NIOBRG__.TTF");
+  font-style: normal;
+  font-weight: 400;
+}
 /* ---------- Fonts ---------- */
 /* ---------------------------- */
 
@@ -169,28 +176,25 @@ body {
 }
 /* ---------- Reusable ---------- */
 /* ------------------------------ */
-/* .fixed-container--780 {
-  background-color: red;
-}
-.fixed-container--980 {
-  background-color: aquamarine;
-}
-.fixed-container--1180 {
-  background-color: antiquewhite;
-}
-.header {
-  background-color: blueviolet;
-} */
 
-/* .section-work {
-  background-color: #fbc531;
+/* ------------------------------- */
+/* ---------- Scrollbar ---------- */
+body::-webkit-scrollbar {
+  width: 1.4rem;
 }
-.work_container {
-  background-color: #00a8ff;
+
+body::-webkit-scrollbar-track {
+  margin-block: 0.2rem;
 }
-.work_heading-primary,
-.work_text-primary,
-.work_heading-secondary,
-.work_links {
-  background-color: #4cd137;
-} */
+
+body::-webkit-scrollbar-thumb {
+  background-color: #2e9cca;
+  border: 0.2rem solid #fff;
+  border-radius: 100vw;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+  background-color: #226089;
+}
+/* ---------- Scrollbar ---------- */
+/* ------------------------------- */
