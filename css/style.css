@@ -397,7 +397,7 @@ body {
   left: -25px;
   font-family: "niobium";
   font-size: 14rem;
-  color: rgba(170, 171, 184, 0.3);
+  color: #aaabb84d;
   z-index: -1;
 }
 .about_bar-box {

@@ -2,20 +2,22 @@
 /* ---------- Typography System ---------- */
 /*
 - Font sizes (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+    10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 - Font weights
-Default: 400
-Semi-bold: 600
-Bold: 700
+    Default: 400
+    Medium: 500
+    Semi-bold: 600
+    Bold: 700
 
 - Line heights
-Default: 1
-Paragraph default: 1.6
+    Default: 1
+    1.1
+    1.6
+    2
 
 - Letter spacing
--0.5px
-0.75px
+    N/A
 */
 /* ---------- Typography System ---------- */
 /* --------------------------------------- */
@@ -27,15 +29,21 @@ Paragraph default: 1.6
     #2E9CCA
 
 - Accents:
+    N/A
 
 - Tints:
-
-- Shades: 
-
-- Greys
     #AAABB8
     #EFEFEF
     #FFFFFF
+
+- Shades:
+    #226089
+    #29648a
+    #464866
+    #aaabb84d
+
+- Greys
+    #25274d
 */
 /* ---------- Colors ---------- */
 /* ---------------------------- */
@@ -43,7 +51,7 @@ Paragraph default: 1.6
 /* ----------------------------- */
 /* ---------- Shadows ---------- */
 /*
-0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    0 1.2rem 2.4rem rgba(0, 0, 0, 0.1)
 */
 /* ---------- Shadows ---------- */
 /* ----------------------------- */
@@ -51,8 +59,7 @@ Paragraph default: 1.6
 /* ----------------------------------- */
 /* ---------- Border Radius ---------- */
 /*
-Default: 9px
-Medium: 11px
+    Default: 20px
 */
 /* ---------- Border Radius ---------- */
 /* ----------------------------------- */
@@ -60,8 +67,8 @@ Medium: 11px
 /* -------------------------------- */
 /* ---------- Whitespace ---------- */
 /*
-- Spacing system (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+    - Spacing system (px)
+    2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 */
 /* ---------- Whitespace ---------- */
 /* -------------------------------- */
@@ -74,6 +81,7 @@ Medium: 11px
   font-style: normal;
   font-weight: 400;
 }
+
 @font-face {
   font-family: "metropolis";
   src: url("../font/Metropolis-RegularItalic.otf");
@@ -170,6 +178,7 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
 .padding--48-0 {
   padding-top: 4.8rem !important;
   padding-bottom: 4.8rem !important;
@@ -180,7 +189,7 @@ body {
 /* ------------------------------- */
 /* ---------- Scrollbar ---------- */
 body::-webkit-scrollbar {
-  width: 1.4rem;
+  width: 14px;
 }
 
 body::-webkit-scrollbar-track {
@@ -189,7 +198,7 @@ body::-webkit-scrollbar-track {
 
 body::-webkit-scrollbar-thumb {
   background-color: #2e9cca;
-  border: 0.2rem solid #fff;
+  border: 2px solid #fff;
   border-radius: 100vw;
 }
 
