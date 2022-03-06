@@ -1,0 +1,111 @@
+/* ----------------------------------- */
+/* ---------- Below: 1280px ---------- */
+@media (max-width: 80em) {
+  /* Work */
+  .work_container {
+    gap: 8rem;
+  }
+  .work_text-box {
+    gap: 1.2rem;
+  }
+
+  /* About */
+  .about_container {
+    grid-template-columns: 1fr;
+  }
+  .about_image-box {
+    display: none;
+  }
+  .about_description-box {
+    max-width: 78rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+/* ---------- Below: 1280px ---------- */
+/* ----------------------------------- */
+
+/* ----------------------------------- */
+/* ---------- Below: 1179px ---------- */
+@media (max-width: 73.6875em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+/* ---------- Below: 1179px ---------- */
+/* ----------------------------------- */
+
+/* ---------------------------------- */
+/* ---------- Below: 776px ---------- */
+@media (max-width: 48.5em) {
+  /* Header */
+  .header_lists {
+    display: none;
+  }
+  .header_menu-box {
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .padding--32-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+}
+/* ---------- Below: 776px ---------- */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/* ---------- Below: 599px ---------- */
+@media (max-width: 37.4375em) {
+  /* Index */
+  .gallery_container {
+    grid-template-columns: 1fr;
+  }
+
+  /* Single */
+  .single_details-box {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+/* ---------- Below: 599px ---------- */
+/* ---------------------------------- */
+
+/* ---------------------------------- */
+/* ---------- Below: 480px ---------- */
+@media (max-width: 30em) {
+  /* Single */
+  .header_text-box {
+    display: none;
+  }
+
+  /* Single */
+  .single_details-box {
+    grid-template-columns: 1fr;
+  }
+  .single_text-info {
+    grid-row: 5;
+  }
+
+  /* Work */
+  .work_text-primary {
+    word-break: break-all;
+  }
+  .work_text-box {
+    align-items: start;
+  }
+  .work_social-box {
+    align-items: start;
+  }
+  .work_heading-primary {
+    font-size: 4.4rem;
+  }
+  .work_text-primary {
+    font-size: 2.4rem;
+  }
+}
+/* ---------- Below: 480px ---------- */
+/* ---------------------------------- */
