@@ -62,7 +62,7 @@
     align-items: center;
     text-align: center;
   }
-  .header_menu-open .header_column--2 {
+  .header_icon--open .header_column--2 {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
@@ -71,11 +71,24 @@
   .header_link:visited {
     font-size: 2.4rem;
   }
-  .header_menu-box {
+  .header_icon-box {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+  }
+  .header_icon--cancel {
+    position: absolute;
+    z-index: 101;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+    transition: all 0.2s;
+  }
+  .header_icon--open .header_icon--cancel {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .padding--32-0 {

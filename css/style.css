@@ -66,11 +66,11 @@
   color: #2e9cca;
 }
 
-.header_menu-box {
+.header_icon-box {
   display: none;
 }
 
-.header_menu {
+.header_icon {
   height: 2.4rem;
   width: 2.4rem;
 }
@@ -378,16 +378,25 @@
 
 .about_testimonial-box {
   max-width: 90%;
+  background-color: antiquewhite;
 }
 
 .about_testimonials {
-  position: relative;
-  display: grid;
-  grid-column: 1fr;
-  overflow: hidden;
+  background-color: yellow;
+  display: flex;
+  /* overflow: hidden; */
+  /* transform: translateX(-200%); */
+}
+
+.about_text-secondary-1,
+.about_text-secondary-2,
+.about_text-secondary-3 {
+  flex-shrink: 0;
 }
 
 .about_text-secondary {
+  display: block;
+  width: 100%;
   font-size: 1.6rem;
   font-weight: 500;
   font-style: italic;
@@ -398,24 +407,15 @@
   transition: transform 0.5s;
 }
 
-.about_text-secondary-2,
-.about_text-secondary-3 {
-  position: absolute;
-  top: 0;
-  left: 0;
+/* .about_text-secondary-1 .about_text-secondary-active {
+  transform: translateX(0) !important;
 }
-
-.about_text-secondary-1 {
-  transform: translateX(0);
+.about_text-secondary-2 .about_text-secondary-active {
+  transform: translateX(-100%) !important;
 }
-
-.about_text-secondary-2 {
-  transform: translateX(100%);
-}
-
-.about_text-secondary-3 {
-  transform: translateX(-100%);
-}
+.about_text-secondary-2 .about_text-secondary-active {
+  transform: translateX(-200%) !important;
+} */
 
 .about_bar-box {
   padding-left: 1.6rem;

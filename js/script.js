@@ -1,10 +1,10 @@
 /* --------------------------------------------------- */
 /* -------------------- Menu Icon -------------------- */
-const btnNavEl = document.querySelector(".header_menu-box");
+const btnNavEl = document.querySelector(".header_icon-box");
 const headerEl = document.querySelector(".header");
 
 btnNavEl.addEventListener("click", function () {
-  headerEl.classList.add("header_menu-open");
+  headerEl.classList.toggle("header_icon--open");
 });
 /* -------------------- Menu Icon -------------------- */
 /* --------------------------------------------------- */
