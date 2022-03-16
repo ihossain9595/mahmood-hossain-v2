@@ -40,15 +40,7 @@
 <img src="img/screenshot-3.png" alt="Screenshot 3">
 <img src="img/screenshot-4.png" alt="Screenshot 4">
 
-  <ol>
-    <li><img src="img/screenshot-1.png" alt="Screenshot 1"></li>
-    <li><img src="img/screenshot-2.png" alt="Screenshot 2"></li>
-    <li><img src="img/screenshot-3.png" alt="Screenshot 3"></li>
-    <li><img src="img/screenshot-4.png" alt="Screenshot 4"></li>
-  </ol>
-
-Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.<br />
-PS - This is the first website that I have created. Thanks to Jonas Schmedtmann (@jonasschmedtman).
+ A simple portfolio website of Mahmood Hossain.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
