@@ -35,6 +35,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
+<img src="img/screenshot-1.png" alt="Screenshot 1">
+<img src="img/screenshot-2.png" alt="Screenshot 2">
+<img src="img/screenshot-3.png" alt="Screenshot 3">
+<img src="img/screenshot-4.png" alt="Screenshot 4">
+
   <ol>
     <li><img src="img/screenshot-1.png" alt="Screenshot 1"></li>
     <li><img src="img/screenshot-2.png" alt="Screenshot 2"></li>
