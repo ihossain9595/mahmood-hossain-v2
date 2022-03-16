@@ -6,7 +6,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/ihossain9595/mahmood-hossain-v2">
-    <img src="img/logo.png" alt="Logo" width="160" height="160">
+    <img src="img/logo.png" alt="Logo" width="120" height="120">
   </a>
 
 <h3 align="center">Mahmood Hossain</h3>
@@ -65,10 +65,3 @@ Ismail Hossain - [@ihossain9595](https://twitter.com/ihossain9595) - ihossain959
 Project Link: [https://github.com/ihossain9595/mahmood-hossain-v2](https://github.com/ihossain9595/mahmood-hossain-v2)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
-[product-screenshot-1]: img/screenshot-1.png
-[product-screenshot-2]: img/screenshot-2.png
-[product-screenshot-3]: img/screenshot-3.png
-[product-screenshot-4]: img/screenshot-4.png
