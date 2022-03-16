@@ -35,12 +35,11 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Omnifood Screen Shot][product-screenshot]
   <ol>
-    <li>![Home Page Screen Shot][product-screenshot-1]</li>
-    <li>![About Me Page Screen Shot][product-screenshot-2]</li>
-    <li>![Contact Me Page Screen Shot][product-screenshot-3]</li>
-    <li>![Single Page Screen Shot][product-screenshot-4]</li>
+    <li><img src="img/screenshot-1.png" alt="Screenshot 1"></li>
+    <li><img src="img/screenshot-2.png" alt="Screenshot 2"></li>
+    <li><img src="img/screenshot-3.png" alt="Screenshot 3"></li>
+    <li><img src="img/screenshot-4.png" alt="Screenshot 4"></li>
   </ol>
 
 Omnifood is an AI-powered food subscription that will make you eat healthy again, 365 days per year. It's tailored to your personal tastes and nutritional needs.<br />
@@ -66,7 +65,7 @@ PS - This is the first website that I have created. Thanks to Jonas Schmedtmann 
 
 Ismail Hossain - [@ihossain9595](https://twitter.com/ihossain9595) - ihossain9595@gmail.com
 
-Project Link: [https://github.com/ihossain9595/omnifood](https://github.com/ihossain9595/mahmood-hossain-v2)
+Project Link: [https://github.com/ihossain9595/mahmood-hossain-v2](https://github.com/ihossain9595/mahmood-hossain-v2)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
