@@ -259,26 +259,38 @@
   color: #2e9cca;
 }
 
-.single_description-box {
-  background-color: #2e9cca;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3.2rem;
-}
-
 .single_text-description {
   max-width: 78rem;
+  margin-left: auto;
+  margin-right: auto;
   font-size: 2rem;
   font-weight: 400;
   line-height: 1.6;
   color: #25274d;
+  margin-bottom: 3.2rem;
 }
 
-.single_image-secondary {
+.single_heading-description {
+  max-width: 78rem;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #29648a;
+  margin-bottom: 1.6rem;
+}
+
+.single_image-description {
   display: block;
   max-width: 100%;
   border-radius: 20px;
+  margin-bottom: 3.2rem;
+}
+
+.single_text-description:last-child,
+.single_heading-description:last-child,
+.single_image-secondary:last-child {
+  margin-bottom: 0;
 }
 /* ---------- Single ---------- */
 /* ---------------------------- */
